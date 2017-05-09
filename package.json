@@ -2,7 +2,7 @@
   "name": "@detroit-labs/tslint-config",
   "version": "0.0.0-development",
   "description": "Shared TSLint configuration used in Detroit Labs' TypeScript projects",
-  "main": "tslint-base.json",
+  "main": "tslint-config.json",
   "scripts": {
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
