@@ -1,0 +1,38 @@
+{
+  "name": "@detroit-labs/tslint-config",
+  "version": "0.0.0-development",
+  "description": "Shared TSLint configuration used in Detroit Labs' TypeScript projects",
+  "main": "tslint-base.json",
+  "scripts": {
+    "commit": "git-cz",
+    "commit-msg": "validate-commit-msg",
+    "test": "echo \"No tests yet\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/detroit-labs/tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "detroit-labs"
+  ],
+  "author": "Macklin Underdown <macklinu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/detroit-labs/tslint-config/issues"
+  },
+  "homepage": "https://github.com/detroit-labs/tslint-config#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.3",
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^2.12.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
