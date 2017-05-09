@@ -5,7 +5,7 @@
   "main": "tslint-base.json",
   "scripts": {
     "commit": "git-cz",
-    "commit-msg": "validate-commit-msg",
+    "commitmsg": "validate-commit-msg",
     "test": "echo \"No tests yet\"",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
