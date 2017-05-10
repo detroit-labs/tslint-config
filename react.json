@@ -1,0 +1,25 @@
+{
+  "extends": ["./tslint-base.json"],
+  "rules": {
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "no-consecutive-blank-lines": true,
+    "no-console": [
+      true,
+      "log",
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-invalid-this": true,
+    "no-switch-case-fall-through": true,
+    "no-use-before-declare": false,
+    "no-var-keyword": true,
+    "ordered-imports": true,
+    "switch-default": true
+  }
+}

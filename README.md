@@ -28,6 +28,23 @@ Here's a sample configuration where `tslint.json` lives adjacent to your `node_m
 }
 ```
 
+There are two primary configurations supplied for convenience:
+
+* `@detroit-labs/tslint-config/react`: contains extra configuration for a TypeScript React project
+* `@detroit-labs/tslint-config/node`: contains extra configuration for a Node server project
+
+Usage is the same as above:
+
+```js
+{
+  "extends": ["@detroit-labs/tslint-config/react"],
+  "rules": {
+    // override rules here
+    "semicolon": false
+  }
+}
+```
+
 To lint all TypeScript files in the `src/` directory, for example, run `tslint -c tslint.json 'src/**/*.{ts,tsx}'`.
 
 ### Development
